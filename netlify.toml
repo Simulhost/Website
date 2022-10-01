@@ -27,6 +27,7 @@ X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=600"
 Origin-Cache-Control = "public, max-age=600"
+Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
 
 [[headers]]
 for = "/index.html"
@@ -41,6 +42,7 @@ X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
+Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
 
 [[headers]]
 for = "/favicon.png"
@@ -55,6 +57,7 @@ X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=604800"
 Origin-Cache-Control = "public, max-age=604800"
+Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
 
 [[headers]]
 for = "/favicon.ico"
@@ -69,4 +72,4 @@ X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=604800"
 Origin-Cache-Control = "public, max-age=604800"
-
+Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
