@@ -1,0 +1,4 @@
+Please contact us at admin@simulhost.com if you wish to report a vulnerability in any of our services.
+
+Please follow common reasonable disclosure, and common sense principles.
+Bounties are not available, but you will be listed on any security.txt files we produce.
