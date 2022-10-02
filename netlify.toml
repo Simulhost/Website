@@ -111,6 +111,12 @@ status = 302
 force = true
 
 [[redirects]]
+from = "/redirect"
+to = "https://www.simulhost.com/"
+status = 302
+force = true
+
+[[redirects]]
 from = "http://simulhost.netlify.app/*"
 to = "/redirect.txt"
 status = 301
