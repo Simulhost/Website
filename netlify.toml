@@ -44,6 +44,22 @@ Origin-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
 Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">, <link rel="icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">, <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">, <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">, <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">'
 
 [[headers]]
+for = "/static/*"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Accept-Encoding, Content-Encoding, Etag"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
+Origin-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
+Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">, <link rel="icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">, <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">, <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">, <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">'
+
+
+[[headers]]
 for = "/favicon.png"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
