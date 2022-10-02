@@ -1,5 +1,5 @@
 [[headers]]
-for = "www.simulhost.com/"
+for = "/"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
@@ -13,7 +13,7 @@ Cache-Control = "public, max-age=600"
 Origin-Cache-Control = "public, max-age=600"
 
 [[headers]]
-for = "www.simulhost.com/index"
+for = "/index"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
@@ -23,12 +23,12 @@ X-Frame-Options = "DENY"
 X-Content-Type-Options = "nosniff"
 X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-Cache-Control = "public, max-age=600"
-Origin-Cache-Control = "public, max-age=600"
+Cache-Control = "public, max-age=604800"
+Origin-Cache-Control = "public, max-age=604800"
 Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
 
 [[headers]]
-for = "www.simulhost.com/index.html"
+for = "/index.html"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
