@@ -71,3 +71,89 @@ Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=604800"
 Origin-Cache-Control = "public, max-age=604800"
 Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
+
+[[headers]]
+for = "http://simulhost.netlify.app/*"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Accept-Encoding, Content-Encoding"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+
+[[redirects]]
+from = "http://simulhost.netlify.app/*"
+to = "https://www.simulhost.com/:splat"
+status = 308
+force = false
+headers = {X-From = "Netlify"}
+
+[[headers]]
+for = "https://simulhost.netlify.app/*"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Accept-Encoding, Content-Encoding"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+
+[[redirects]]
+from = "https://simulhost.netlify.app/*"
+to = "https://www.simulhost.com/:splat"
+status = 308
+force = false
+headers = {X-From = "Netlify"}
+
+[[headers]]
+for = "http://simulhost.com/*"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Accept-Encoding, Content-Encoding"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+
+[[redirects]]
+from = "http://simulhost.com/*"
+to = "https://www.simulhost.com/:splat"
+status = 308
+force = false
+headers = {X-From = "Netlify"}
+
+
+
+[[headers]]
+for = "https://simulhost.com/*"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Accept-Encoding, Content-Encoding"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+
+[[redirects]]
+from = "https://simulhost.com/*"
+to = "https://www.simulhost.com/:splat"
+status = 308
+force = false
+headers = {X-From = "Netlify"}
