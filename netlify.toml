@@ -53,8 +53,8 @@ X-Frame-Options = "DENY"
 X-Content-Type-Options = "nosniff"
 X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-Cache-Control = "public, max-age=604800"
-Origin-Cache-Control = "public, max-age=604800"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
 Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
 
 [[headers]]
@@ -68,8 +68,8 @@ X-Frame-Options = "DENY"
 X-Content-Type-Options = "nosniff"
 X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-Cache-Control = "public, max-age=604800"
-Origin-Cache-Control = "public, max-age=604800"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
 Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
 
 [[headers]]
@@ -89,7 +89,7 @@ Origin-Cache-Control = "public, max-age=63072000"
 [[redirects]]
 from = "http://simulhost.netlify.app/*"
 to = "https://www.simulhost.com/:splat"
-status = 302
+status = 301
 force = true
 
 [[headers]]
@@ -109,7 +109,7 @@ Origin-Cache-Control = "public, max-age=63072000"
 [[redirects]]
 from = "https://simulhost.netlify.app/*"
 to = "https://www.simulhost.com/:splat"
-status = 302
+status = 301
 force = true
 
 [[headers]]
@@ -129,7 +129,7 @@ Origin-Cache-Control = "public, max-age=63072000"
 [[redirects]]
 from = "http://simulhost.com/*"
 to = "https://www.simulhost.com/:splat"
-status = 302
+status = 301
 force = true
 
 [[headers]]
@@ -149,5 +149,5 @@ Origin-Cache-Control = "public, max-age=63072000"
 [[redirects]]
 from = "https://simulhost.com/*"
 to = "https://www.simulhost.com/:splat"
-status = 302
+status = 301
 force = true
