@@ -90,8 +90,7 @@ Origin-Cache-Control = "public, max-age=63072000"
 from = "http://simulhost.netlify.app/*"
 to = "https://www.simulhost.com/:splat"
 status = 308
-force = false
-headers = {X-From = "Netlify"}
+force = true
 
 [[headers]]
 for = "https://simulhost.netlify.app/*"
@@ -111,8 +110,7 @@ Origin-Cache-Control = "public, max-age=63072000"
 from = "https://simulhost.netlify.app/*"
 to = "https://www.simulhost.com/:splat"
 status = 308
-force = false
-headers = {X-From = "Netlify"}
+force = true
 
 [[headers]]
 for = "http://simulhost.com/*"
@@ -132,10 +130,7 @@ Origin-Cache-Control = "public, max-age=63072000"
 from = "http://simulhost.com/*"
 to = "https://www.simulhost.com/:splat"
 status = 308
-force = false
-headers = {X-From = "Netlify"}
-
-
+force = true
 
 [[headers]]
 for = "https://simulhost.com/*"
@@ -155,5 +150,4 @@ Origin-Cache-Control = "public, max-age=63072000"
 from = "https://simulhost.com/*"
 to = "https://www.simulhost.com/:splat"
 status = 308
-force = false
-headers = {X-From = "Netlify"}
+force = true
