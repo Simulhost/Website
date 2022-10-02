@@ -86,7 +86,7 @@ Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=63072000"
 Origin-Cache-Control = "public, max-age=63072000"
 Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
-Set-Cookie = "wasRedirected=true; Max-Age=63072000"
+Set-Cookie = "simulhostWasRedirected=true; Max-Age=63072000"
 
 [[headers]]
 for = "/redirect.txt"
@@ -102,7 +102,7 @@ Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=63072000"
 Origin-Cache-Control = "public, max-age=63072000"
 Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
-Set-Cookie = "wasRedirected=true; Max-Age=63072000"
+Set-Cookie = "simulhostWasRedirected=true; Max-Age=63072000"
 
 [[redirects]]
 from = "/redirect.txt"
