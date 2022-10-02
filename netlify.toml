@@ -1,5 +1,5 @@
 [[headers]]
-for = "/"
+for = "www.simulhost.com/"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
@@ -13,7 +13,7 @@ Cache-Control = "public, max-age=600"
 Origin-Cache-Control = "public, max-age=600"
 
 [[headers]]
-for = "/index"
+for = "www.simulhost.com/index"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
@@ -28,7 +28,7 @@ Origin-Cache-Control = "public, max-age=600"
 Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
 
 [[headers]]
-for = "/index.html"
+for = "www.simulhost.com/index.html"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
@@ -43,7 +43,7 @@ Origin-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
 Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
 
 [[headers]]
-for = "/favicon.png"
+for = "www.simulhost.com/favicon.png"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
@@ -58,7 +58,7 @@ Origin-Cache-Control = "public, max-age=63072000"
 Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
 
 [[headers]]
-for = "/favicon.ico"
+for = "www.simulhost.com/favicon.ico"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
