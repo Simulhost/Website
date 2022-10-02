@@ -88,8 +88,8 @@ Origin-Cache-Control = "public, max-age=63072000"
 
 [[redirects]]
 from = "http://simulhost.netlify.app/*"
-to = "https://www.simulhost.com"
-status = 308
+to = "https://www.simulhost.com/:splat"
+status = 302
 force = true
 
 [[headers]]
@@ -108,8 +108,8 @@ Origin-Cache-Control = "public, max-age=63072000"
 
 [[redirects]]
 from = "https://simulhost.netlify.app/*"
-to = "https://www.simulhost.com"
-status = 308
+to = "https://www.simulhost.com/:splat"
+status = 302
 force = true
 
 [[headers]]
@@ -128,8 +128,8 @@ Origin-Cache-Control = "public, max-age=63072000"
 
 [[redirects]]
 from = "http://simulhost.com/*"
-to = "https://www.simulhost.com"
-status = 308
+to = "https://www.simulhost.com/:splat"
+status = 302
 force = true
 
 [[headers]]
@@ -148,6 +148,6 @@ Origin-Cache-Control = "public, max-age=63072000"
 
 [[redirects]]
 from = "https://simulhost.com/*"
-to = "https://www.simulhost.com"
-status = 308
+to = "https://www.simulhost.com/:splat"
+status = 302
 force = true
