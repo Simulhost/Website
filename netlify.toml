@@ -11,6 +11,7 @@ X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=600, must-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate"
+Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">, <link rel="icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">, <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">, <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">, <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">'
 
 [[headers]]
 for = "/index"
@@ -25,7 +26,7 @@ X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=600, must-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate"
-Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
+Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">, <link rel="icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">, <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">, <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">, <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">'
 
 [[headers]]
 for = "/index.html"
@@ -40,7 +41,7 @@ X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
-Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
+Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">, <link rel="icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">, <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">, <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">, <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">'
 
 [[headers]]
 for = "/favicon.png"
@@ -70,7 +71,7 @@ X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=63072000"
 Origin-Cache-Control = "public, max-age=63072000"
-Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
+Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">, <link rel="icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">, <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">, <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">, <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">'
 
 [[headers]]
 for = "/redirect"
@@ -101,7 +102,7 @@ X-XSS-Protection = "1; mode=block"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=63072000"
 Origin-Cache-Control = "public, max-age=63072000"
-Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <link rel="icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">,     <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">'
+Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">, <link rel="icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon" href="favicon.ico" type="image/x-icon">, <link rel="apple-touch-icon-precomposed" href="favicon.ico" type="image/x-icon">, <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">, <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">, <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">'
 Set-Cookie = "simulhostWasRedirected=true; Max-Age=63072000"
 
 [[redirects]]
