@@ -91,7 +91,7 @@ Link = '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">,     <
 [[redirects]]
 from = "/redirect.txt"
 to = "https://www.simulhost.com/"
-status = 301
+status = 302
 force = true
 
 [[redirects]]
