@@ -3,6 +3,13 @@ body {
   color: #fff;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins'), local('Poppins'), url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format('woff2');
+  font-display: swap;
+}
 
 @keyframes fadeIn {
   from {top: 20%; opacity: 0;}
