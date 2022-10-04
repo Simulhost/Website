@@ -14,6 +14,8 @@ Cache-Control = "public, max-age=600, must-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate"
 BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
 
 [[headers]]
 for = "/index"
@@ -31,6 +33,8 @@ Cache-Control = "public, max-age=600, must-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate"
 BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
 
 [[headers]]
 for = "/index.html"
@@ -48,6 +52,8 @@ Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
 BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
 
 [[headers]]
 for = "/static/*"
@@ -65,6 +71,8 @@ Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
 BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
 
 [[headers]]
 for = "/favicon.png"
@@ -82,6 +90,8 @@ Cache-Control = "public, max-age=63072000"
 Origin-Cache-Control = "public, max-age=63072000"
 BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
 
 [[headers]]
 for = "/favicon.ico"
@@ -99,6 +109,8 @@ Cache-Control = "public, max-age=63072000"
 Origin-Cache-Control = "public, max-age=63072000"
 BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
 
 [[headers]]
 for = "/redirect"
@@ -117,6 +129,8 @@ Origin-Cache-Control = "public, max-age=63072000"
 Set-Cookie = "simulhostWasRedirected=true; Max-Age=63072000"
 BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
 
 [[headers]]
 for = "/redirect.txt"
@@ -135,6 +149,8 @@ Origin-Cache-Control = "public, max-age=63072000"
 Set-Cookie = "simulhostWasRedirected=true; Max-Age=63072000"
 BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
 
 [[redirects]]
 from = "/redirect.txt"
