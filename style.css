@@ -3,6 +3,10 @@ body {
   color: #fff;
 }
 
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
+
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
