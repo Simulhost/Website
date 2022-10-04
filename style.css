@@ -7,6 +7,10 @@ img {
   aspect-ratio: attr(width) / attr(height);
 }
 
+.animate {
+  animation: slide-in 0.7s both;
+}
+
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
