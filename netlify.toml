@@ -16,6 +16,7 @@ BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
 for = "/index"
@@ -35,6 +36,7 @@ BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
 for = "/index.html"
@@ -54,6 +56,7 @@ BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
 for = "/static/*"
@@ -73,6 +76,7 @@ BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
 for = "/favicon.png"
@@ -92,6 +96,7 @@ BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
 for = "/favicon.ico"
@@ -111,6 +116,7 @@ BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
 for = "/redirect"
@@ -131,6 +137,7 @@ BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
 
 [[headers]]
 for = "/redirect.txt"
@@ -151,6 +158,7 @@ BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
 
 [[redirects]]
 from = "/redirect.txt"
