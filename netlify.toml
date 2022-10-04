@@ -21,6 +21,7 @@ Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http
 Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
+Referrer-Policy = "same-origin"
 
 [[headers]]
 for = "/index"
@@ -45,6 +46,7 @@ Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http
 Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
+Referrer-Policy = "same-origin"
 
 [[headers]]
 for = "/index.html"
@@ -69,6 +71,7 @@ Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http
 Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
+Referrer-Policy = "same-origin"
 
 [[headers]]
 for = "/static/*"
@@ -93,6 +96,7 @@ Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http
 Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
+Referrer-Policy = "same-origin"
 
 [[headers]]
 for = "/favicon.png"
@@ -117,6 +121,7 @@ Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http
 Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
+Referrer-Policy = "same-origin"
 
 [[headers]]
 for = "/favicon.ico"
@@ -141,6 +146,7 @@ Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http
 Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
+Referrer-Policy = "same-origin"
 
 [[headers]]
 for = "/redirect"
@@ -166,6 +172,7 @@ Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http
 Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
+Referrer-Policy = "same-origin"
 
 [[headers]]
 for = "/redirect.txt"
@@ -191,6 +198,7 @@ Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http
 Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
+Referrer-Policy = "same-origin"
 
 [[redirects]]
 from = "/redirect.txt"
