@@ -12,6 +12,8 @@ X-DNS-Prefetch-Control = "on"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=600, must-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
 
 [[headers]]
 for = "/index"
@@ -27,6 +29,8 @@ X-DNS-Prefetch-Control = "on"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=600, must-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
 
 [[headers]]
 for = "/index.html"
@@ -42,6 +46,8 @@ X-DNS-Prefetch-Control = "on"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
 
 [[headers]]
 for = "/static/*"
@@ -57,6 +63,8 @@ X-DNS-Prefetch-Control = "on"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
 Origin-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
 
 [[headers]]
 for = "/favicon.png"
@@ -72,6 +80,8 @@ X-DNS-Prefetch-Control = "on"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=63072000"
 Origin-Cache-Control = "public, max-age=63072000"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
 
 [[headers]]
 for = "/favicon.ico"
@@ -87,6 +97,8 @@ X-DNS-Prefetch-Control = "on"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=63072000"
 Origin-Cache-Control = "public, max-age=63072000"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
 
 [[headers]]
 for = "/redirect"
@@ -103,6 +115,8 @@ Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=63072000"
 Origin-Cache-Control = "public, max-age=63072000"
 Set-Cookie = "simulhostWasRedirected=true; Max-Age=63072000"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
 
 [[headers]]
 for = "/redirect.txt"
@@ -119,6 +133,8 @@ Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 Cache-Control = "public, max-age=63072000"
 Origin-Cache-Control = "public, max-age=63072000"
 Set-Cookie = "simulhostWasRedirected=true; Max-Age=63072000"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
 
 [[redirects]]
 from = "/redirect.txt"
