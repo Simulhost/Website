@@ -7,11 +7,6 @@ img {
   aspect-ratio: attr(width) / attr(height);
 }
 
-* {
-  will-change: transform;
-  transform: translateZ(0);
-}
-
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
