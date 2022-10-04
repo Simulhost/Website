@@ -22,6 +22,7 @@ Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "same-origin"
+X-Permitted-Cross-Domain-Policies = "none"
 
 [[headers]]
 for = "/index"
@@ -47,6 +48,7 @@ Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "same-origin"
+X-Permitted-Cross-Domain-Policies = "none"
 
 [[headers]]
 for = "/index.html"
@@ -72,6 +74,7 @@ Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "same-origin"
+X-Permitted-Cross-Domain-Policies = "none"
 
 [[headers]]
 for = "/static/*"
@@ -97,6 +100,7 @@ Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "same-origin"
+X-Permitted-Cross-Domain-Policies = "none"
 
 [[headers]]
 for = "/favicon.png"
@@ -122,6 +126,7 @@ Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "same-origin"
+X-Permitted-Cross-Domain-Policies = "none"
 
 [[headers]]
 for = "/favicon.ico"
@@ -147,6 +152,7 @@ Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "same-origin"
+X-Permitted-Cross-Domain-Policies = "none"
 
 [[headers]]
 for = "/redirect"
@@ -173,6 +179,7 @@ Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "same-origin"
+X-Permitted-Cross-Domain-Policies = "none"
 
 [[headers]]
 for = "/redirect.txt"
@@ -199,6 +206,7 @@ Access-Control-Max-Age = "86400"
 Access-Control-Allow-Private-Network = "false"
 Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "same-origin"
+X-Permitted-Cross-Domain-Policies = "none"
 
 [[redirects]]
 from = "/redirect.txt"
