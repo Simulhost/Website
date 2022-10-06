@@ -20,6 +20,7 @@ Cross-Origin-Resource-Policy = "same-origin"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
 Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="index.html"'
 
 [[headers]]
 for = "/index"
@@ -43,6 +44,7 @@ Cross-Origin-Resource-Policy = "same-origin"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
 Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="index.html"'
 
 [[headers]]
 for = "/index.html"
@@ -66,6 +68,7 @@ Cross-Origin-Resource-Policy = "same-origin"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
 Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="index.html"'
 
 [[headers]]
 for = "/static/*"
@@ -112,6 +115,7 @@ Cross-Origin-Resource-Policy = "same-origin"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
 Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="favicon.png"'
 
 [[headers]]
 for = "/favicon.ico"
@@ -135,6 +139,7 @@ Cross-Origin-Resource-Policy = "same-origin"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
 Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="favicon.ico"'
 
 [[headers]]
 for = "/redirect"
@@ -159,6 +164,7 @@ Cross-Origin-Resource-Policy = "same-origin"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
 Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="redirect.txt"'
 
 [[headers]]
 for = "/redirect.txt"
@@ -183,6 +189,7 @@ Cross-Origin-Resource-Policy = "same-origin"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
 Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="redirect.txt"'
 
 [[headers]]
 for = "/products.csv"
@@ -200,7 +207,7 @@ Cross-Origin-Resource-Policy = "cross-origin"
 Access-Control-Allow-Origin = "*"
 Access-Control-Max-Age = "86400"
 Referrer-Policy = "cross-origin"
-Content-Disposition = "inline"
+Content-Disposition = 'attachment; filename="products.csv"'
 
 [[redirects]]
 from = "/redirect.txt"
