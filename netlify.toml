@@ -140,7 +140,6 @@ Referrer-Policy = "strict-origin-when-cross-origin"
 Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
 Content-Disposition = 'inline; filename="style.css"'
 
-
 [[headers]]
 for = "/favicon.png"
 [headers.values]
@@ -270,9 +269,6 @@ Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
 Accept-Ranges = "bytes"
 Vary = "Etag"
-X-Frame-Options = "DENY"
-X-Content-Type-Options = "nosniff"
-X-XSS-Protection = "1; mode=block"
 X-Frame-Options = "DENY"
 X-Content-Type-Options = "nosniff"
 X-XSS-Protection = "1; mode=block"
