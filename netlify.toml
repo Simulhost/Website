@@ -71,7 +71,7 @@ Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgr
 Content-Disposition = 'inline; filename="index.html"'
 
 [[headers]]
-for = "/static/*"
+for = "/static/fa.css"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
@@ -82,8 +82,8 @@ X-Content-Type-Options = "nosniff"
 X-XSS-Protection = "1; mode=block"
 X-DNS-Prefetch-Control = "on"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
-Origin-Cache-Control = "public, max-age=600, must-revalidate, proxy-revalidate"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
 BFCache-Opt-In = "unload"
 Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
@@ -92,6 +92,54 @@ Cross-Origin-Resource-Policy = "same-origin"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
 Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="fa.css"'
+
+[[headers]]
+for = "/static/simulhostlogo.png"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Accept-Encoding, Content-Encoding, Etag"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+X-DNS-Prefetch-Control = "on"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="simulhostlogo.png"'
+
+[[headers]]
+for = "/static/style.css"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Accept-Encoding, Content-Encoding, Etag"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+X-DNS-Prefetch-Control = "on"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="style.css"'
+
 
 [[headers]]
 for = "/favicon.png"
@@ -192,21 +240,122 @@ Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgr
 Content-Disposition = 'inline; filename="redirect.txt"'
 
 [[headers]]
+for = "/robots.txt"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Etag"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+X-DNS-Prefetch-Control = "on"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
+Referrer-Policy = "strict-origin-when-cross-origin"
+X-Permitted-Cross-Domain-Policies = "none"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="robots.txt"'
+
+[[headers]]
+for = "/security.txt"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Etag"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+X-DNS-Prefetch-Control = "on"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
+Referrer-Policy = "strict-origin-when-cross-origin"
+X-Permitted-Cross-Domain-Policies = "none"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="security.txt"'
+
+[[headers]]
+for = "/.well-known/security.txt"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Etag"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+X-DNS-Prefetch-Control = "on"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
+Referrer-Policy = "strict-origin-when-cross-origin"
+X-Permitted-Cross-Domain-Policies = "none"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="security.txt"'
+
+[[headers]]
+for = "/.well-known/security.txt"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Etag"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+X-DNS-Prefetch-Control = "on"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+BFCache-Opt-In = "unload"
+Origin-Agent-Cluster = "?1"
+Cross-Origin-Opener-Policy = "same-origin"
+Cross-Origin-Embedder-Policy = "require-corp"
+Cross-Origin-Resource-Policy = "same-origin"
+Referrer-Policy = "strict-origin-when-cross-origin"
+X-Permitted-Cross-Domain-Policies = "none"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Disposition = 'inline; filename="robots.txt"'
+
+[[headers]]
 for = "/products.csv"
 [headers.values]
 Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
 Alternate-Protocol = "443:npn-http/2"
 Accept-Ranges = "bytes"
 Vary = "Origin, Etag"
-X-Frame-Options = "SAMEORIGIN"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
 X-DNS-Prefetch-Control = "on"
 Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
-Cache-Control = "public, max-age=63072000"
-Origin-Cache-Control = "public, max-age=63072000"
+Cache-Control = "public, max-age=86400, must-revalidate"
+Origin-Cache-Control = "public, max-age=86400, must-revalidate"
 Cross-Origin-Resource-Policy = "cross-origin"
 Access-Control-Allow-Origin = "*"
 Access-Control-Max-Age = "86400"
-Referrer-Policy = "cross-origin"
+Referrer-Policy = "strict-origin-when-cross-origin"
 Content-Disposition = 'attachment; filename="products.csv"'
 
 [[redirects]]
