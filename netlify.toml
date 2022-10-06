@@ -17,13 +17,9 @@ Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
 Cross-Origin-Resource-Policy = "same-origin"
-Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http://www.simulhost.com, https://www.simulhost.com"
-Access-Control-Max-Age = "86400"
-Access-Control-Allow-Private-Network = "false"
-Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
-Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: data:; frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
 
 [[headers]]
 for = "/index"
@@ -44,13 +40,9 @@ Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
 Cross-Origin-Resource-Policy = "same-origin"
-Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http://www.simulhost.com, https://www.simulhost.com"
-Access-Control-Max-Age = "86400"
-Access-Control-Allow-Private-Network = "false"
-Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
-Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: data:; frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
 
 [[headers]]
 for = "/index.html"
@@ -71,13 +63,9 @@ Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
 Cross-Origin-Resource-Policy = "same-origin"
-Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http://www.simulhost.com, https://www.simulhost.com"
-Access-Control-Max-Age = "86400"
-Access-Control-Allow-Private-Network = "false"
-Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
-Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: data:; frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
 
 [[headers]]
 for = "/static/*"
@@ -98,13 +86,9 @@ Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
 Cross-Origin-Resource-Policy = "same-origin"
-Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http://www.simulhost.com, https://www.simulhost.com"
-Access-Control-Max-Age = "86400"
-Access-Control-Allow-Private-Network = "false"
-Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
-Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: data:; frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
 
 [[headers]]
 for = "/favicon.png"
@@ -125,13 +109,9 @@ Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
 Cross-Origin-Resource-Policy = "same-origin"
-Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http://www.simulhost.com, https://www.simulhost.com"
-Access-Control-Max-Age = "86400"
-Access-Control-Allow-Private-Network = "false"
-Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
-Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: data:; frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
 
 [[headers]]
 for = "/favicon.ico"
@@ -152,13 +132,9 @@ Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
 Cross-Origin-Resource-Policy = "same-origin"
-Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http://www.simulhost.com, https://www.simulhost.com"
-Access-Control-Max-Age = "86400"
-Access-Control-Allow-Private-Network = "false"
-Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
-Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: data:; frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
 
 [[headers]]
 for = "/redirect"
@@ -180,13 +156,9 @@ Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
 Cross-Origin-Resource-Policy = "same-origin"
-Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http://www.simulhost.com, https://www.simulhost.com"
-Access-Control-Max-Age = "86400"
-Access-Control-Allow-Private-Network = "false"
-Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
-Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; script-src 'self' 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: data:; frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
 
 [[headers]]
 for = "/redirect.txt"
@@ -208,23 +180,37 @@ Origin-Agent-Cluster = "?1"
 Cross-Origin-Opener-Policy = "same-origin"
 Cross-Origin-Embedder-Policy = "require-corp"
 Cross-Origin-Resource-Policy = "same-origin"
-Access-Control-Allow-Origin = "http://simulhost.com, https://simulhost.com, http://www.simulhost.com, https://www.simulhost.com"
-Access-Control-Max-Age = "86400"
-Access-Control-Allow-Private-Network = "false"
-Access-Control-Allow-Methods = "GET, POST, HEAD, OPTIONS, CONNECT"
 Referrer-Policy = "strict-origin-when-cross-origin"
 X-Permitted-Cross-Domain-Policies = "none"
-Content-Security-Policy = "default-src 'self'; img-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline'; style-src 'self' https: data: blob:; font-src 'self' https: data: blob:; frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+Content-Security-Policy = "frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests;"
+
+[[headers]]
+for = "/products.csv"
+[headers.values]
+Alt-Svc = 'h2=":443"; ma=63072000; persist=1'
+Alternate-Protocol = "443:npn-http/2"
+Accept-Ranges = "bytes"
+Vary = "Origin, Etag"
+X-Frame-Options = "SAMEORIGIN"
+X-DNS-Prefetch-Control = "on"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+Cache-Control = "public, max-age=63072000"
+Origin-Cache-Control = "public, max-age=63072000"
+Cross-Origin-Resource-Policy = "cross-origin"
+Access-Control-Allow-Origin = "*"
+Access-Control-Max-Age = "86400"
+Referrer-Policy = "cross-origin"
+Content-Disposition = "inline"
 
 [[redirects]]
 from = "/redirect.txt"
-to = "https://www.simulhost.com/"
+to = "https://simulhost.com/"
 status = 302
 force = true
 
 [[redirects]]
 from = "/redirect"
-to = "https://www.simulhost.com/"
+to = "https://simulhost.com/"
 status = 302
 force = true
 
@@ -241,13 +227,13 @@ status = 301
 force = true
 
 [[redirects]]
-from = "http://simulhost.com/*"
+from = "http://www.simulhost.com/*"
 to = "/redirect.txt"
 status = 301
 force = true
 
 [[redirects]]
-from = "https://simulhost.com/*"
+from = "https://www.simulhost.com/*"
 to = "/redirect.txt"
 status = 301
 force = true
